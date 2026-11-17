@@ -29,4 +29,4 @@ python -m pylint server.py
 
 The unit tests mock the remote service, so they run without a network connection.
 The web application itself uses the course-provided Watson endpoint.
-Live inference was unavailable in the preparation environment because the Skills Network hostname did not resolve. See [SUBMISSION_STATUS.md](SUBMISSION_STATUS.md) and `submission_evidence/` for the recorded attempt and offline verification; no live prediction is claimed.
+Live inference was unavailable in the preparation environment: the latest request timed out, and an earlier attempt failed DNS resolution. See [SUBMISSION_STATUS.md](SUBMISSION_STATUS.md) and `submission_evidence/` for the recorded attempts and offline verification; no live prediction is claimed.

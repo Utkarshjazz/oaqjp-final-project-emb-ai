@@ -1,0 +1,6 @@
+Live Watson inference retry
+Input: I think I am having fun
+
+A direct request to the Skills Network EmotionPredict endpoint timed out after 10 seconds with requests.ConnectTimeout. No live emotion scores were returned.
+
+The package import still succeeds. The local unit tests use mocked Watson responses and do not establish live service connectivity.
