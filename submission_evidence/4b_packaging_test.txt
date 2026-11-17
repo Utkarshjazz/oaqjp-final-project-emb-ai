@@ -1,0 +1,4 @@
+$ python3 -c 'from EmotionDetection import emotion_detector; print(emotion_detector("I hate working long hours"))'
+{'anger': None, 'disgust': None, 'fear': None, 'joy': None, 'sadness': None, 'dominant_emotion': None}
+
+Note: package import succeeded, but this environment could not resolve the Skills Network Watson hostname. The function returned its all-None service-error result; this is not a successful live inference.
