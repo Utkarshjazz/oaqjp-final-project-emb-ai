@@ -1,0 +1,19 @@
+test_http_400_returns_none_for_every_value (test_emotion_detection.EmotionDetectionTests.test_http_400_returns_none_for_every_value)
+A blank-input response uses the required all-None result shape. ... ok
+test_required_examples_have_expected_dominant_emotions (test_emotion_detection.EmotionDetectionTests.test_required_examples_have_expected_dominant_emotions)
+Each course example maps to its expected dominant emotion. ... ok
+test_transport_error_returns_none_result (test_emotion_detection.EmotionDetectionTests.test_transport_error_returns_none_result)
+A service transport error does not crash the caller. ... ok
+test_blank_text_shows_required_error (test_server.EmotionDetectorRouteTests.test_blank_text_shows_required_error)
+A blank input receives the exact course-required message. ... ok
+test_home_page_renders (test_server.EmotionDetectorRouteTests.test_home_page_renders)
+The main route serves the provided emotion detector interface. ... ok
+test_service_error_uses_required_error_message (test_server.EmotionDetectorRouteTests.test_service_error_uses_required_error_message)
+A None dominant emotion is rendered as the required error. ... ok
+test_valid_text_returns_formatted_scores (test_server.EmotionDetectorRouteTests.test_valid_text_returns_formatted_scores)
+The API route includes scores and the dominant emotion. ... ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.026s
+
+OK
